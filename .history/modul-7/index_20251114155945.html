@@ -1,0 +1,71 @@
+<!--
+File: index.html (save as index.html)
+This HTML links to an external styles.css file (save the CSS below into styles.css in the same folder).
+Place your hero/background image as "hero.jpg" in the same folder (or change the path in CSS).
+-->
+
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Web Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Web Portofolio Ku</h1>
+      <nav class="main-nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home" aria-label="hero banner">
+    <!-- hero.jpg -> ganti sesuai nama file gambarmu -->
+    <div class="hero-image"><img src="iu.png" alt="iu" width="100" height="100%"></div>
+  </section>
+
+  <main class="container main-grid">
+    <aside class="sidebar">
+      <h2>Tentang Aku</h2>
+      <p>Nama: ...</p>
+      <p>Deskripsi singkat tentang dirimu. Pendidikan, keahlian, dan minat.</p>
+    </aside>
+
+    <section class="content">
+      <div class="cards-row">
+        <article class="edu-card">SD</article>
+        <article class="edu-card">SMP</article>
+        <article class="edu-card">SMA</article>
+        <article class="edu-card">S1</article>
+      </div>
+
+      <div class="about-school">
+        <h3>Kisah Sekolahku</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere, nisi ac ullamcorper dictum, urna
+          purus cursus massa, euismod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Copyright 2021 nama kamu, all rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Save the CSS below into a file named styles.css -->
+  <!-- ==================== styles.css ==================== -->
+  <!--
+  : save the text from the next comment block to styles.css
+  -->
+
+</body>
+
+</html>

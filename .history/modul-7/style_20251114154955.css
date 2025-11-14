@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #f39c12; /* Oranye/Kuning untuk aksen */
+  --secondary-color: #34495e; /* Biru kehitaman (lebih gelap dari sebelumnya) */
+  --accent-color: #c0392b;
+  --text-color: #ecf0f1; /* Teks Putih/Abu-abu muda */
+  --bg-color: #2c3e50; /* Latar Belakang sangat gelap */
+  --font-sans: Arial, sans-serif;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+/* Ubah juga beberapa bagian putih menjadi gelap */
+.site-header {
+  background-color: var(--secondary-color); /* Header gelap */
+  /* ... */
+}
+.sidebar {
+  background-color: #34495e; /* Sidebar gelap */
+  color: var(--text-color);
+  /* ... */
+}
+.content {
+  background-color: #34495e; /* Konten gelap */
+  color: var(--text-color);
+  /* ... */
+}
+.site-header .logo, h1, h2, h3 {
+  color: var(--primary-color); /* Judul menjadi cerah */
+}
+.edu-card {
+  background-color: #46607d; /* Kartu sedikit lebih terang */
+  border-left: 5px solid var(--primary-color);
+  color: #ecf0f1;
+}
