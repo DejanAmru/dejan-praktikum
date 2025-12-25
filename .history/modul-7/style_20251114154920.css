@@ -1,0 +1,81 @@
+/* ==================== styles.css ==================== */
+
+/* --- Dasar & Reset --- */
+:root {
+  --primary-color: #3498db; /* Biru cerah */
+  --secondary-color: #2c3e50; /* Abu-abu tua */
+  --accent-color: #e74c3c; /* Merah aksen */
+  --text-color: #333;
+  --bg-color: #f4f4f9;
+  --font-sans: Arial, sans-serif;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 0.5em;
+  color: var(--secondary-color);
+}
+
+/* --- Header & Navigasi --- */
+.site-header {
+  background-color: #fff;
+  box-shadow: var(--shadow);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 10px 15px;
+  margin-left: 10px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 4px;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+/* --- Hero Section --- */
+.hero {
+  height: 50vh; /* Tinggi 50% dari viewport */
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--secondary-color); /*
